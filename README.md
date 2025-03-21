@@ -16,13 +16,13 @@ This repository provides an implementation of the sliced Wasserstein distance fo
 
 ## Notebooks
 
-1. **`SWGAN_2D.ipynb`**  
+1. **`swgan2D.ipynb`**  
    Illustrates how to train a GAN/WGAN on a 2D synthetic dataset (e.g., Gaussian mixtures).
 
-2. **`SWGAN_MNIST.ipynb`**  
+2. **`swganMNIST.ipynb`**  
    Shows how to train a GAN/WGAN on the MNIST handwritten digit dataset.
 
-3. **`SWGAN_Celeba.ipynb`**  
+3. **`swganCeleba.ipynb`**  
    Demonstrates how to train a GAN/WGAN on the CelebA dataset.  
 
 ---
