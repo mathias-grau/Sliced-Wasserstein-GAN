@@ -1,5 +1,5 @@
 # Sliced-Wasserstein-GAN
-An implementation of the sliced wasserstein distance for generative training
+An implementation of the sliced wasserstein distance for generative training with SGD optimizer.
 
 <p align="center">
   <img src="figures/WGAN_Celeba_ADAM.png" width="600" />
