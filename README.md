@@ -33,7 +33,7 @@ For training on CelebA, you must download the dataset from Kaggle. You can eithe
 - Download it manually from [Kaggle Datasets: jessicali9530/celeba-dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset) and place the extracted images in the **root directory** of this repository, **OR**
 - Use the snippet below (in Python) to download directly via `kagglehub`:
 
-```bash
+```python
 import kagglehub
 
 # Download the latest version to the current directory
@@ -46,22 +46,10 @@ Make sure that your folder structure looks like this once the CelebA data is in 
 
 ```
 Sliced-Wasserstein-GAN/
-├── SWGAN_2D.ipynb
-├── SWGAN_MNIST.ipynb
-├── SWGAN_Celeba.ipynb
+├── swgan2D.ipynb
+├── swganMNIST.ipynb
+├── swganCeleba.ipynb
 ├── figures/
-│   ├── 2D_GMM.png
-│   ├── GAN_2D_ADAM.png
-│   ├── GAN_2D_SGD.png
-│   ├── GAN_MNIST_ADAM.png
-│   ├── GAN_MNIST_SGD.png
-│   ├── HQ.png
-│   ├── WGAN_2D_ADAM.png
-│   ├── WGAN_2D_SGD.png
-│   ├── WGAN_Celeba_ADAM.png
-│   ├── WGAN_Celeba_SGD.png
-│   ├── WGAN_MNIST_ADAM.png
-│   └── WGAN_MNIST_SGD.png
 └── img_align_celeba/  <-- contains CelebA images
 ```
 
